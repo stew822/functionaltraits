@@ -14,6 +14,7 @@ Imports:
     rfishbase,
     taxizedb,
     readxl,
+    hoardr,
     utils
 Collate: 
     'Database.R'
