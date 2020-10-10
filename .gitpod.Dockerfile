@@ -3,4 +3,5 @@ FROM gitpod/workspace-full
 
 USER gitpod
 
-RUN brew install R --use-llvm
+RUN sudo apt-get update -q && \
+    sudo apt-get install -yq r-base
